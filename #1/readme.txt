@@ -15,7 +15,6 @@ This is a simple Python script that generates a random number between 1 and 2, a
 ```python
 import random
 
-# Generate a random integer between 1 and 2
 random_number = random.randint(1, 2)
 
 # Ask the user for input and convert it to an integer
@@ -27,3 +26,11 @@ if user_input == random_number:
 else:
     print("You lose")
     print("The number was:", random_number)
+```
+## How to Run
+Save the script in a file named starting.py.
+Open a terminal and navigate to the directory containing starting.py.
+Run the script using the following command:
+Follow the on-screen instructions to enter a number and see if you win or lose.
+## Requirements
+Python 3.x

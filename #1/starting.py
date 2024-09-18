@@ -12,3 +12,4 @@ if user_input == random_number:
 else:
     print("You lose")
     print("The number was:", random_number)
+
