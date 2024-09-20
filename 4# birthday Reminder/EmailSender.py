@@ -5,8 +5,8 @@ def send_email_notification(name, birthdate):
     # Informacje do logowania się do serwera poczty
     smtp_server = 'smtp.gmail.com'
     port = 587
-    sender_email = ''
-    password = ''
+    sender_email = 'Put Your Email Here'
+    password = 'Put Your Password Here'
 
     # Tworzymy wiadomość
     message = f"Przypomnienie: {name} ma urodziny jutro ({birthdate})!"
