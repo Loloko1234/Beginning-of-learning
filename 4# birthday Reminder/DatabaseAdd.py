@@ -8,5 +8,6 @@ def add_birthday(name, birthdate):
     
     conn.commit()
     conn.close()
-    
-add_birthday("Adam Ozz", "2024-09-20")
+
+# Przykład użycia
+add_birthday("Nowaczkiewicz", "2024-23-09")
